@@ -16,3 +16,4 @@
 - **Commit 16** - Transferts entre établissements (même niveau) avec historique de parcours conservé.
 - **Commit 17** - Journal d'audit chaîné par hachage (toute altération est détectable).
 - **Commit 18** - Correction de notes en deux temps (enseignant propose, école valide) avec historique de l'ancienne valeur.
+- **Commit 19** - PWA : installable, lecture hors-ligne (cache par profil), bandeau de connexion, API non cachée par le CDN.

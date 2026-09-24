@@ -14,3 +14,10 @@ async function show() {
 }
 addEventListener('hashchange', show);
 show();
+
+// --- Commit 19 : connectivité limitée - bandeau hors-ligne + service worker ---
+const banner = h('p', { role: 'status', hidden: '', style: 'margin:0;padding:.5rem;background:#b00020;color:#fff;text-align:center' }, '📴 Hors-ligne : données en cache, actions indisponibles');
+document.body.prepend(banner);
+const upd = () => { banner.hidden = navigator.onLine; };
+addEventListener('online', upd); addEventListener('offline', upd); upd();
+if ('serviceWorker' in navigator) navigator.serviceWorker.register('/sw.js');

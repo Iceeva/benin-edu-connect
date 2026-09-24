@@ -1,0 +1,2 @@
+{ "name": "Benin Edu Connect", "short_name": "EduConnect", "start_url": "/", "display": "standalone", "background_color": "#ffffff", "theme_color": "#0b6b4f",
+  "icons": [{ "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml" }] }
