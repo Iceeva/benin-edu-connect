@@ -8,4 +8,5 @@ export const pages = [
   ['dashboard', 'Pilotage', '📊'],
   ['alerts', 'Alertes', '⚠️'],
   ['appointments', 'Rendez-vous', '📅'],
+  ['transfers', 'Transferts', '🔁'],
 ];
