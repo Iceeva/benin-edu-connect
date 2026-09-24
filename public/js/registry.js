@@ -4,4 +4,5 @@ export const pages = [
   ['students', 'Apprenants', '👩‍🎓'],
   ['justifications', 'Justificatifs', '📝'],
   ['payments', 'Paiements', '💰'],
+  ['verify', 'Vérifier', '🔎'],
 ];
