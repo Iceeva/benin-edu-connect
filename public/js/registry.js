@@ -5,4 +5,5 @@ export const pages = [
   ['justifications', 'Justificatifs', '📝'],
   ['payments', 'Paiements', '💰'],
   ['verify', 'Vérifier', '🔎'],
+  ['dashboard', 'Pilotage', '📊'],
 ];
