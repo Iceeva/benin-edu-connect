@@ -2,4 +2,5 @@
 export const pages = [
   ['home', 'Accueil', '🏠'],
   ['students', 'Apprenants', '👩‍🎓'],
+  ['justifications', 'Justificatifs', '📝'],
 ];
