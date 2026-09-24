@@ -11,4 +11,5 @@ export const pages = [
   ['transfers', 'Transferts', '🔁'],
   ['audit', 'Audit', '🧾'],
   ['corrections', 'Corrections', '✏️'],
+  ['aides', 'Aides', '🎒'],
 ];
