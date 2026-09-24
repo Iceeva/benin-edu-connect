@@ -33,3 +33,5 @@ export const fakeQR = (ref) => {
   d.innerHTML = `<svg role="img" aria-label="QR code simulé pour ${ref}" width="140" height="140" viewBox="0 0 21 21">${cells.join('')}</svg>`;
   return d;
 };
+// toast() : alerte VISUELLE (+ vibration) - ne dépend jamais du son, utile pour les personnes sourdes
+export const toast = (msg) => { const t = h('div', { role: 'status', class: 'toast' }, msg); document.body.append(t); navigator.vibrate?.(200); setTimeout(() => t.remove(), 5000); };

@@ -16,3 +16,12 @@ document.getElementById('a11y').append(
   h('button', { onclick: size(-10), 'aria-label': 'Réduire le texte' }, 'A−'),
   h('button', { onclick: () => setPref('contrast', !prefs.contrast), 'aria-label': 'Contraste élevé' }, '◐'));
 apply();
+
+// --- Commit 20 ---
+// Lecture à voix haute avec la synthèse vocale du navigateur (aide les personnes malvoyantes ou peu lectrices)
+const speak = () => { speechSynthesis.cancel(); const u = new SpeechSynthesisUtterance(document.getElementById('app').innerText); u.lang = document.documentElement.lang === 'en' ? 'en-US' : 'fr-FR'; speechSynthesis.speak(u); };
+document.getElementById('a11y').append(
+  h('button', { onclick: speak, 'aria-label': 'Lire la page à voix haute' }, '🔊'),
+  h('button', { onclick: () => speechSynthesis.cancel(), 'aria-label': 'Arrêter la lecture' }, '⏹'),
+  h('button', { onclick: () => setPref('easy', !prefs.easy), 'aria-label': 'Mode facile : pictogrammes et gros boutons' }, '🧩'),
+  h('button', { onclick: () => setPref('dys', !prefs.dys), 'aria-label': 'Police adaptée à la dyslexie' }, 'Aa'));

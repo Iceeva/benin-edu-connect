@@ -13,3 +13,11 @@ label { display: inline-block; margin-right: .5rem; }
 :focus-visible { outline: 3px solid var(--ac); outline-offset: 2px; }
 .skip { position: absolute; left: -999px; } .skip:focus { left: 0; background: #fff; color: #000; padding: .5rem; z-index: 9; }
 .bad { color: #b00020; font-weight: 700; } .ok { color: var(--ac); font-weight: 700; }
+
+/* --- Commit 20 : accessibilité avancée --- */
+[data-easy=true] nav a::before { content: attr(data-icon) ' '; font-size: 1.6rem; }
+[data-easy=true] button, [data-easy=true] select, [data-easy=true] input { min-height: 3.2rem; font-size: 1.2rem; }
+[data-dys=true] { font-family: Verdana, sans-serif; letter-spacing: .06em; word-spacing: .15em; line-height: 1.8; }
+.toast { position: fixed; bottom: 1rem; left: 50%; transform: translateX(-50%); background: var(--ac); color: var(--bg); padding: 1rem 1.5rem; border-radius: 8px; font-size: 1.2rem; z-index: 10; animation: flash .6s 3; }
+@keyframes flash { 50% { outline: 6px solid #ff0; } }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
