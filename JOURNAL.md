@@ -3,3 +3,4 @@
 - **Commit 3** - Recherche multi-filtres (texte, département, niveau, établissement, sexe) avec résultats annoncés aux lecteurs d'écran.
 - **Commit 4** - Fiche apprenant modulaire (panels) + notes et moyenne pondérée.
 - **Commit 5** - Absences et retards dans le dossier de l'apprenant.
+- **Commit 6** - Profils de démonstration + contrôle d'accès par rôle ET par périmètre (élève, école, département, ministère).
