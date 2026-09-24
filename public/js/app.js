@@ -1,3 +1,4 @@
+import './bell.js';
 import './session.js';
 import './a11y.js';
 // app.js - routeur "hash" : #page?param=valeur charge js/pages/page.js

@@ -12,3 +12,4 @@
 - **Commit 12** - Tableau de pilotage par département (direction : son département ; ministère : national) avec filtres.
 - **Commit 13** - Détection automatique : décrochage, difficultés scolaires, doublons, notes impossibles, diplômes sans référence.
 - **Commit 14** - Rendez-vous : créneaux, détection de conflits (créneau/apprenant), convocation automatique depuis une alerte.
+- **Commit 15** - Notifications déclenchées par les événements (paiement, justificatif, rendez-vous) + cloche.
