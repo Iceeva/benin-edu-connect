@@ -1,0 +1,1 @@
+{ "name": "benin-edu-connect", "version": "0.1.0", "private": true, "scripts": { "dev": "vercel dev", "test": "node test/smoke.js" }, "engines": { "node": ">=18" } }

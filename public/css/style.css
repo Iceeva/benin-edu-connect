@@ -1,0 +1,15 @@
+:root { --bg: #fff; --fg: #1a1a1a; --ac: #0b6b4f; --mut: #eef2f0; }
+[data-contrast=true] { --bg: #000; --fg: #fff; --ac: #ffea00; --mut: #222; }
+body { margin: 0; font-family: system-ui, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.5; }
+header, nav { display: flex; flex-wrap: wrap; gap: .5rem; align-items: center; padding: .5rem 1rem; background: var(--mut); }
+nav a { color: var(--ac); font-weight: 600; padding: .25rem .5rem; }
+nav a[aria-current=page] { background: var(--ac); color: var(--bg); border-radius: 4px; }
+main { padding: 1rem; max-width: 1100px; margin: auto; } footer { padding: 1rem; text-align: center; opacity: .7; }
+table { border-collapse: collapse; width: 100%; display: block; overflow-x: auto; }
+th, td { border: 1px solid #8888; padding: .4rem; text-align: left; }
+.cards { display: flex; flex-wrap: wrap; gap: 1rem; } .card { background: var(--mut); padding: 1rem; border-radius: 8px; min-width: 140px; }
+button, input, select, textarea { font: inherit; padding: .4rem .6rem; min-height: 2.5rem; margin: .15rem; }
+label { display: inline-block; margin-right: .5rem; }
+:focus-visible { outline: 3px solid var(--ac); outline-offset: 2px; }
+.skip { position: absolute; left: -999px; } .skip:focus { left: 0; background: #fff; color: #000; padding: .5rem; z-index: 9; }
+.bad { color: #b00020; font-weight: 700; } .ok { color: var(--ac); font-weight: 700; }
