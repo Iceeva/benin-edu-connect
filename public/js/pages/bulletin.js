@@ -2,6 +2,8 @@ import { h, api, qs, table, fakeQR } from '../core.js';
 export default async (root) => {
   const id = qs().get('id'); let b;
   try { b = await api(`/students/${id}/bulletin`); } catch (e) {
+    // 402 = paiement requis : on affiche le formulaire de paiement simulé puis on recharge
+    if (e.status === 402) { root.append(h('h1', {}, 'Bulletin'), h('p', {}, `Frais de délivrance : ${e.data.fee.amount} FCFA (simulation).`), (await import('../payform.js')).default(id, e.data.fee.code, () => location.reload())); return; }
     // {{ERR}}
     return root.append(h('p', { role: 'alert', class: 'bad' }, e.message));
   }

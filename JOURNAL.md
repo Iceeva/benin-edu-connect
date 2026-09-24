@@ -7,3 +7,4 @@
 - **Commit 7** - Justification des absences : dépôt par l'élève/parent, décision de l'école.
 - **Commit 8** - Bulletin officiel imprimable : référence unique, empreinte SHA-256, QR simulé.
 - **Commit 9** - Paiements SIMULÉS (MTN, Moov, carte) : catalogue de frais, reçus, historique.
+- **Commit 10** - Le téléchargement du bulletin est conditionné au paiement (402 -> formulaire de paiement -> déblocage).
