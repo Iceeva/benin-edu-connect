@@ -22,3 +22,4 @@
 - **Commit 22** - Aides : bourse (éligibilité sur la moyenne), cantine, transport ; décision ministère/direction, décaissement simulé.
 - **Commit 23** - Espace enseignant : appel de la classe et saisie groupée de notes (validation tout-ou-rien).
 - **Commit 24** - Recherche globale (apprenants, établissements, diplômes, rendez-vous) : filtres, pagination, export CSV, périmètre respecté.
+- **Commit 25** - Version finale : accueil par rôle, score de risque, aide, tests de fumée, README complet.

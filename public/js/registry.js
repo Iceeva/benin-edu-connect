@@ -14,4 +14,5 @@ export const pages = [
   ['aides', 'Aides', '🎒'],
   ['classe', 'Classe', '🧑‍🏫'],
   ['search', 'Recherche', '🔍'],
+  ['help', 'Aide', '❓'],
 ];
