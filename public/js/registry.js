@@ -12,4 +12,5 @@ export const pages = [
   ['audit', 'Audit', '🧾'],
   ['corrections', 'Corrections', '✏️'],
   ['aides', 'Aides', '🎒'],
+  ['classe', 'Classe', '🧑‍🏫'],
 ];
