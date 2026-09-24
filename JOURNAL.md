@@ -18,3 +18,4 @@
 - **Commit 18** - Correction de notes en deux temps (enseignant propose, école valide) avec historique de l'ancienne valeur.
 - **Commit 19** - PWA : installable, lecture hors-ligne (cache par profil), bandeau de connexion, API non cachée par le CDN.
 - **Commit 20** - Accessibilité avancée : lecture vocale, mode facile (pictogrammes), police dyslexie, alertes visuelles/vibration, mouvement réduit.
+- **Commit 21** - Interface bilingue FR/EN (dictionnaire extensible, attribut lang mis à jour pour les lecteurs d'écran).
