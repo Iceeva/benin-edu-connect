@@ -6,4 +6,5 @@ export const pages = [
   ['payments', 'Paiements', '💰'],
   ['verify', 'Vérifier', '🔎'],
   ['dashboard', 'Pilotage', '📊'],
+  ['alerts', 'Alertes', '⚠️'],
 ];

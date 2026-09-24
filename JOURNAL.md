@@ -10,3 +10,4 @@
 - **Commit 10** - Le téléchargement du bulletin est conditionné au paiement (402 -> formulaire de paiement -> déblocage).
 - **Commit 11** - Diplômes + vérification publique (données minimales) + révocation par le ministère.
 - **Commit 12** - Tableau de pilotage par département (direction : son département ; ministère : national) avec filtres.
+- **Commit 13** - Détection automatique : décrochage, difficultés scolaires, doublons, notes impossibles, diplômes sans référence.
