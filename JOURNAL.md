@@ -15,3 +15,4 @@
 - **Commit 15** - Notifications déclenchées par les événements (paiement, justificatif, rendez-vous) + cloche.
 - **Commit 16** - Transferts entre établissements (même niveau) avec historique de parcours conservé.
 - **Commit 17** - Journal d'audit chaîné par hachage (toute altération est détectable).
+- **Commit 18** - Correction de notes en deux temps (enseignant propose, école valide) avec historique de l'ancienne valeur.

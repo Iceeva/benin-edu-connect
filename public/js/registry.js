@@ -10,4 +10,5 @@ export const pages = [
   ['appointments', 'Rendez-vous', '📅'],
   ['transfers', 'Transferts', '🔁'],
   ['audit', 'Audit', '🧾'],
+  ['corrections', 'Corrections', '✏️'],
 ];
