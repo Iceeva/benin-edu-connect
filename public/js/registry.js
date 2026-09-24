@@ -9,4 +9,5 @@ export const pages = [
   ['alerts', 'Alertes', '⚠️'],
   ['appointments', 'Rendez-vous', '📅'],
   ['transfers', 'Transferts', '🔁'],
+  ['audit', 'Audit', '🧾'],
 ];
