@@ -24,3 +24,12 @@ export const act = (label, path, body) => h('button', { onclick: async () => { t
 // sel() : liste déroulante étiquetée ; query() : formulaire -> paramètres d'URL sans valeurs vides
 export const sel = (name, label, opts) => h('label', {}, label + ' ', h('select', { name }, h('option', { value: '' }, 'Tous'), ...opts.map((o) => h('option', { value: o.v ?? o }, o.t ?? o))));
 export const query = (form) => { const p = new URLSearchParams(new FormData(form)); [...p].forEach(([k, v]) => !v && p.delete(k)); return p; };
+// QR *simulé* : grille 21x21 dérivée de la référence (visuel de démonstration, pas un vrai QR - voir README)
+export const fakeQR = (ref) => {
+  let x = 0; for (const c of ref) x = (x * 31 + c.charCodeAt(0)) >>> 0;
+  const cells = [];
+  for (let i = 0; i < 441; i++) { x = (x * 1664525 + 1013904223) >>> 0; if (x & 0x8000) cells.push(`<rect x="${i % 21}" y="${Math.floor(i / 21)}" width="1" height="1"/>`); }
+  const d = document.createElement('div');
+  d.innerHTML = `<svg role="img" aria-label="QR code simulé pour ${ref}" width="140" height="140" viewBox="0 0 21 21">${cells.join('')}</svg>`;
+  return d;
+};

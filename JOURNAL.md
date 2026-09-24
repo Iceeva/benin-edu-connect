@@ -5,3 +5,4 @@
 - **Commit 5** - Absences et retards dans le dossier de l'apprenant.
 - **Commit 6** - Profils de démonstration + contrôle d'accès par rôle ET par périmètre (élève, école, département, ministère).
 - **Commit 7** - Justification des absences : dépôt par l'élève/parent, décision de l'école.
+- **Commit 8** - Bulletin officiel imprimable : référence unique, empreinte SHA-256, QR simulé.
