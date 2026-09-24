@@ -1,2 +1,2 @@
 - **Commit 1** - Plateforme de base : liste des apprenants + statistiques (données simulées, déjà compatible Vercel).
- 
+- **Commit 2** - Barre d'accessibilité : taille du texte, contraste élevé, lien d'évitement, focus visible.
