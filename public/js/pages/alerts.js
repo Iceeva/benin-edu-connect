@@ -5,6 +5,8 @@ export default async (root) => {
   const buttons = (a) => {
     const box = h('span');
     if (a.state === 'ouverte') box.append(act('Traiter', `/alerts/${a.id}/ack`, {}));
+    // Depuis une alerte, l'école/direction peut convoquer l'apprenant : le premier créneau libre est réservé
+    if (a.studentId && ['ecole', 'direction'].includes(state.role)) box.append(act('Convoquer', '/appointments/summon', { studentId: a.studentId, reason: a.text }));
   // {{ACT}}
     return box;
   };

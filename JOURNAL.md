@@ -11,3 +11,4 @@
 - **Commit 11** - Diplômes + vérification publique (données minimales) + révocation par le ministère.
 - **Commit 12** - Tableau de pilotage par département (direction : son département ; ministère : national) avec filtres.
 - **Commit 13** - Détection automatique : décrochage, difficultés scolaires, doublons, notes impossibles, diplômes sans référence.
+- **Commit 14** - Rendez-vous : créneaux, détection de conflits (créneau/apprenant), convocation automatique depuis une alerte.
