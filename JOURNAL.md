@@ -2,3 +2,4 @@
 - **Commit 2** - Barre d'accessibilité : taille du texte, contraste élevé, lien d'évitement, focus visible.
 - **Commit 3** - Recherche multi-filtres (texte, département, niveau, établissement, sexe) avec résultats annoncés aux lecteurs d'écran.
 - **Commit 4** - Fiche apprenant modulaire (panels) + notes et moyenne pondérée.
+- **Commit 5** - Absences et retards dans le dossier de l'apprenant.
